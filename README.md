@@ -1,5 +1,5 @@
 # project_magang 
 ![image](https://user-images.githubusercontent.com/74947753/150638425-ad53bbf9-a164-4569-a755-e109922a0b89.png)
-![image](https://user-images.githubusercontent.com/74947753/150637429-e6819bca-b869-496f-ade6-553891083129.png)
-![image](https://user-images.githubusercontent.com/74947753/150637448-186da42c-60d9-4e4d-8a3d-0dbee02ef2a9.png)
-![image](https://user-images.githubusercontent.com/74947753/150637470-3b29a30a-70b7-4532-bf92-29ad85d8447a.png)
+![image](https://user-images.githubusercontent.com/74947753/150638527-efa4c1ff-fb87-4177-b855-7a2670001669.png)
+![image](https://user-images.githubusercontent.com/74947753/150638541-79adb034-3f16-4cbe-919d-94ca6b161a3b.png)
+![image](https://user-images.githubusercontent.com/74947753/150638582-4fabecdf-2501-4edb-aca8-4a88a4704044.png)

@@ -1,0 +1,129 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: arial;
+	padding: 10px;
+	background: #f1f1f1;
+}
+.container{
+	width:1024px;
+	margin: 0 auto;
+}
+
+.header {
+	height:200px;
+	
+	text-align: center;
+	background-image: url("../pict/banner3.jpg");
+}
+
+.header h1 {
+	font-size: 50px;
+}
+
+.navigasiatas {
+	margin-top:3px;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.navigasiatas a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.navigasiatas a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.kolomkiri {
+	padding-top: 10px;
+	padding-left: 10px;
+	float: left;
+	width: 70%;
+}
+.kolomkiriapoteker {
+	padding-top: 10px;
+	padding-left: 10px;
+	float: left;
+	width: 100%;
+}
+
+.kolomkanan {
+	float: left;
+	width: 25%;
+	background-color: #f1f1f1;
+	padding-left:20px;
+}
+.fakeimg {
+	background-color: #aaa;
+	width: 200%;
+	padding: 20px;
+}
+	
+.card {
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+table {
+	width:100%;
+}
+th {
+	height: 50px;
+}
+td {
+	height: 30px;
+	text-align: left;
+	vertical-align:bottom;
+	padding:15px;
+}
+th,td {
+	border-bottom:solid 1px #ccc;
+}
+tr:hover {background-color: #fff;}
+
+th {
+	background-color: #4CAF50;
+	color: white;
+}
+tr:nth-child(even) {background-color: aqua}
+
+select {
+	width: 40%;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	background-color: #f1f1f1;
+}
+
+.footer {
+	padding: 20px;
+	text-align: center;
+	background: #f;
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+	.leftcolumn,.rightcolumn {
+		width: 100%;
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 400px) {
+.topnav a }

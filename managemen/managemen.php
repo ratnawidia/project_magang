@@ -22,8 +22,7 @@
     <?php
         include 'koneksi.php';
         $sql = "SELECT project.id, project.nama_project, project.perusahaan,
-                project.created_at, project.updated_at, project.progress, programmer.nama, programmer.email,
-                programmer.file_foto
+                project.created_at, project.updated_at, project.progress, project.file_foto, programmer.nama, programmer.email
                 FROM project JOIN programmer ON project.id = programmer.id
                 ORDER BY project.id ASC";
         $data = mysqli_query($conn, $sql);
@@ -53,11 +52,12 @@
                 <td><?php echo $d['nama_project']; ?></td>
                 <td><?php echo $d['perusahaan']; ?></td>
                 <td>
-                <?php echo '<img src="data:image/jpeg;base64,'.base64_encode( $d['file_foto'] ).'"height="25" weight="25" style="border-radius: 100px; -moz-border-radius: 100px;"/>';?>
+                    <?php echo '<img src="data:image/jpeg;base64,'.base64_encode($d['file_foto']).'"height="25" 
+                    weight="25" style="border-radius: 100px; -moz-border-radius: 100px;"/>';?>
 
                     <b><?php echo $d['nama']; ?><br></b>
                     <?php echo $d['email']; ?>
-                    </td>
+                </td>
                 <td><?php echo $d['created_at']; ?></td>
                 <td><?php echo $d['updated_at']; ?></td>
                 <td><?php echo 
